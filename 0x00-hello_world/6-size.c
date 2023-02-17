@@ -6,16 +6,10 @@
  */
 int main(void)
 {
-char charType;
-int intType;
-long int longintType;
-long long int longlongintType;
-float floatType;
-/*Sizeof operator is used to evaluate the size of a variable*/
-printf("Size of a char: %ld byte(s)\n", sizeof(charType));
-printf("Size of an int: %ld byte(s)\n", sizeof(intType));
-printf("Size of a long int: %ld byte(s)\n", sizeof(longintType));
-printf("Size of a long long int: %ld byte(s)\n", sizeof(lolongintType));
-printf("Size of a float: %ld byte(s)\n", sizeof(floatType));
+printf("Size of a char: %zu bytes\n", sizeof(char));
+printf("Size of an int: %zu bytes\n", sizeof(int));
+printf("Size of long int: %zu bytes\n", sizeof(long int));
+printf("Size of long long: %zu byte\n", sizeof(long long int));
+printf("Size of a float: %zu byte\n", sizeof(float));
 return (0);
 }
