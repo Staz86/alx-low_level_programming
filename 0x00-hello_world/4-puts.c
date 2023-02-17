@@ -1,5 +1,9 @@
 #include <stdio.h>
-/*prints string to stdout using puts func*/
+/**
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
 	char Mystr[] = "\"Programming is like building a multilingual puzzle";
