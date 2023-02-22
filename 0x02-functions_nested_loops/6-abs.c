@@ -6,13 +6,11 @@
  *
  * @c: Number to check
  *
- * Return: 1 success
+ * Return: c (success)
  */
 int _abs(int c)
 {
-
 	c = _abs(c);
-	_putchar(c);
 	_putchar('\n');
-	return (1);
+	return (c);
 }
