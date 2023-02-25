@@ -22,11 +22,15 @@ int main(void)
 		{
 			printf("FizzBuzz ");
 		}
+		else if (num == 100)
+		{
+			printf("%d", num);
+		}
 		else
 		{
 			printf("%d ", num);
 		}
 	}
-	putchar('\n');
+	printf("\n");
 	return (0);
 }
