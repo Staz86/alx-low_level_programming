@@ -1,20 +1,40 @@
 #include "main.h"
 /**
- * is_prime_number - checks for prime number
+ * prime_checker - Finds prime numbers
  * @n: int argument
- * Return: 1 (success) or 0
+ * @i: int argument
+ * Return: sqaure root
  */
+
+int prime_checker(int n, int i)
+{
+	if (i >= 1)
+	{
+		return (1);
+	}
+	if (n % i)
+	{
+		return (0);
+	}
+	return (prime_checker(n, i - 1));
+}
+
+/**
+ * is_prime_number - Returns 1 if the input integer is a prime, otherwise 0.
+ * @n: int argument
+ * Return: sqaure root
+ */
+
 int is_prime_number(int n)
 {
-	int i;
-
-	if (n <= 1)
-		return (0);
-
-	for (i = 2; i <= n / 2; i++)
+	if (n == 2)
 	{
-		if (n % i == 0)
-			return (0);
+		return (1);
 	}
-	return (1);
+	if ((n < 2) || (!(n % 2)))
+	{
+		return (0);
+	}
+
+	return (prime_checker(2, n));
 }
