@@ -1,6 +1,6 @@
 0x0C. C - More malloc, free
-|----------------------------------------------------------------------------|
-Tasks
+|--------------------------|
+Tasks                                                                        
 ------------------------------------------------------------------------------
 0. Trust no one
 - Write a function that allocates memory using malloc.
@@ -8,7 +8,7 @@ Tasks
 - Returns a pointer to the allocated memory
 - if malloc fails, the malloc_checked function should cause normal process 
   termination with a status value of 98
-
+------------------------------------------------------------------------------
 1. string_nconcat
 mandatory
 Write a function that concatenates two strings.
