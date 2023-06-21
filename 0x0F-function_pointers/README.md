@@ -22,6 +22,7 @@ Write a function that searches for an integer.
 - If size <= 0, return -1
 --------------------------------------------------------------------
 3. A goal is not always meant to be reached, it often serves simply as something to aim at
+
 Write a program that performs simple operations.
 - You are allowed to use the standard library
 - Usage: calc num1 operator num2
